@@ -1,0 +1,17 @@
+{
+  "height":1,
+  "width":5,
+  "ceiling":6,
+  "initial_tiles":[
+    {"tile_id":"T1","revision":1,"row":0,"col":0,"values":[[0,4,1]]},
+    {"tile_id":"T2","revision":1,"row":0,"col":2,"values":[[1,4,0]]}
+  ],
+  "correction":{"tile_id":"T2","revision":2,"row":0,"col":2,"values":[[1,2,0]]},
+  "invalid_correction":{"tile_id":"T2","revision":3,"row":0,"col":2,"values":[[2,2,0]]},
+  "outlets":[{"id":"L","cell":[0,0],"sill":1},{"id":"R","cell":[0,4],"sill":3}],
+  "requests":[
+    {"id":"A1","source_revision":1,"opens":2,"total_max":7,"cell_max":[{"cell":[0,2],"max":2}]},
+    {"id":"A2","source_revision":2,"opens":2,"total_max":7,"cell_max":[{"cell":[0,2],"max":2}]},
+    {"id":"A3","source_revision":2,"opens":1,"total_max":7,"cell_max":[{"cell":[0,2],"max":2}]}
+  ]
+}
